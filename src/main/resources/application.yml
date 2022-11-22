@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: simple-spring-docker-app
+  profiles:
+    active: dev, h2

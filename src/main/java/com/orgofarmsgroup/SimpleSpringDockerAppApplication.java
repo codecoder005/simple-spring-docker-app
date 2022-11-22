@@ -1,0 +1,13 @@
+package com.orgofarmsgroup;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SimpleSpringDockerAppApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SimpleSpringDockerAppApplication.class, args);
+	}
+
+}
