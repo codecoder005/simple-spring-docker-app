@@ -7,6 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -15,9 +16,11 @@ import java.util.List;
 @RequestMapping("/users")
 @Slf4j
 public class UserController {
-    private static List<UserEntity> users = Arrays.asList(
-            new UserEntity(101L, "John", "john@email.com")
-    );
+    private static List<UserEntity> users = new ArrayList<>();
+
+    static {
+        users.add(new UserEntity(101L, "John", "john@email.com"));
+    }
 
     @GetMapping(produces = "application/json")
     public ResponseEntity<Object> get(HttpServletRequest request) {
