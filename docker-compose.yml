@@ -1,0 +1,6 @@
+version: "3.0"
+services:
+  my-app:
+    image: simple-spring-docker-app:latest
+    ports:
+      - "8080:8080"
