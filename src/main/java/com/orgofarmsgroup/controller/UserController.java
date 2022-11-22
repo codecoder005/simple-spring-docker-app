@@ -34,6 +34,7 @@ public class UserController {
     public ResponseEntity<Object> post(@RequestBody UserEntity user) {
         try{
             log.info("UserController::post");
+            users.add(user);
             return ResponseEntity.status(HttpStatus.OK).body(user);
         }catch (Exception ex) {
             log.error("UserController::post::SOMETHING WENT WRONG");
