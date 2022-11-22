@@ -4,3 +4,5 @@ services:
     image: simple-spring-docker-app:latest
     ports:
       - "8080:8080"
+    volumes:
+      - /home/ubuntu/github/simple-spring-docker-app/logs/dev/:/logs/dev/
