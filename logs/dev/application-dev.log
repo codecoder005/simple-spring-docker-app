@@ -45,3 +45,27 @@
 2022-11-22 11:41:02.257  INFO 7100 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2022-11-22 11:41:02.261  INFO 7100 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2022-11-22 11:41:02.266  INFO 7100 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-22 12:41:03.641  INFO 2852 --- [main] c.o.SimpleSpringDockerAppApplication     : Starting SimpleSpringDockerAppApplication using Java 17.0.3.1 on DML-75W0Y93 with PID 2852 (C:\Users\rjanapureddy\Downloads\version-control\github\simple-spring-docker-app\target\classes started by rjanapureddy in C:\Users\rjanapureddy\Downloads\version-control\github\simple-spring-docker-app)
+2022-11-22 12:41:03.645  INFO 2852 --- [main] c.o.SimpleSpringDockerAppApplication     : The following 2 profiles are active: "dev", "h2"
+2022-11-22 12:41:04.640  INFO 2852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-22 12:41:04.661  INFO 2852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2022-11-22 12:41:05.523  INFO 2852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-22 12:41:05.536  INFO 2852 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-22 12:41:05.537  INFO 2852 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-22 12:41:05.686  INFO 2852 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-22 12:41:05.686  INFO 2852 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1964 ms
+2022-11-22 12:41:05.730  INFO 2852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-22 12:41:06.038  INFO 2852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-22 12:41:06.054  INFO 2852 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
+2022-11-22 12:41:06.244  INFO 2852 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-22 12:41:06.342  INFO 2852 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-22 12:41:06.575  INFO 2852 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-22 12:41:06.733  INFO 2852 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-11-22 12:41:07.456  INFO 2852 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-22 12:41:07.465  INFO 2852 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-22 12:41:07.536  WARN 2852 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-22 12:41:08.050  INFO 2852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-22 12:41:08.064  INFO 2852 --- [main] c.o.SimpleSpringDockerAppApplication     : Started SimpleSpringDockerAppApplication in 5.107 seconds (JVM running for 5.799)
+2022-11-22 12:44:26.043  INFO 2852 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-22 12:44:26.047  INFO 2852 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-22 12:44:26.051  INFO 2852 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
