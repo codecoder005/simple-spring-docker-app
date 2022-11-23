@@ -1,5 +1,6 @@
 package com.orgofarmsgroup.controller;
 
+import com.orgofarmsgroup.util.AppConstants;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -24,7 +25,7 @@ class UserControllerTest {
     @DisplayName("users root api")
     void testUsers() throws Exception {
         mockMvc.perform(
-                get("/users")
+                get(AppConstants.API_URI.USERS_API_URI.USERS_ROOT)
         ).andDo(print()).andExpect(status().isOk());
     }
 }
